@@ -43,6 +43,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
 aside {
   font-family: 'Courier New', Courier, monospace;
   padding: 10px;
